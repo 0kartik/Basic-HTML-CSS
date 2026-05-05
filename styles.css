@@ -32,7 +32,7 @@ div{
     height: 80vh;
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 200px;
+    gap: 90px;
     align-items: center;
     padding: 20px;
 }
@@ -54,5 +54,10 @@ div{
     background-color: #34495e;
 }
 .hero img{
-    margin-left: 110px;
+    margin-left: 170px;
+}
+.hero-items button:hover{
+    background-color: #ebecee;
+    color: #eda36e;
+    transform: scale3d(1.1.1);
 }
